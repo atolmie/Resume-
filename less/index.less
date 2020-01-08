@@ -63,27 +63,76 @@ html, body {
 @primary-color: #95B5FE;
 @secondary-color: #E5E9F2;
 
+// mix-in
+.center {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
 //primary
 
 .general {
 	background-color: @primary-color;
+	.center();
 }
 
 .work {
 	background-color: @primary-color;
+	.center();
 }
 
 .social-media {
 	background-color: @primary-color;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: row;
 }
 
 //secondary 
 
 .education {
 	background-color: @secondary-color;
+	.center();
 }
 
 .skills {
 	background-color: @secondary-color;
+	.center();
 }
+
+//img
+
+img { 
+	border-radius: 50%;
+	width: 11rem;
+	height: 10rem;
+}
+
+// Name
+
+h1 {
+	font-size: 4em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 1em;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: .5em;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: .2em;
+
+}
+
+
+
 

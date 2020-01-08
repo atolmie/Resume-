@@ -134,18 +134,64 @@ html,
 body {
   height: 100%;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .general {
   background-color: #95B5FE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .work {
   background-color: #95B5FE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .social-media {
   background-color: #95B5FE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 .education {
   background-color: #E5E9F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .skills {
   background-color: #E5E9F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img {
+  border-radius: 50%;
+  width: 11rem;
+  height: 10rem;
+}
+h1 {
+  font-size: 4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+}
+h2 {
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.5em;
+}
+h3 {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.2em;
 }
