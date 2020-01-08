@@ -134,6 +134,18 @@ html,
 body {
   height: 100%;
 }
-body {
-  background-color: red;
+.general {
+  background-color: #95B5FE;
+}
+.work {
+  background-color: #95B5FE;
+}
+.social-media {
+  background-color: #95B5FE;
+}
+.education {
+  background-color: #E5E9F2;
+}
+.skills {
+  background-color: #E5E9F2;
 }
